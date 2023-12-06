@@ -14,7 +14,7 @@ class Model
 
 		try {
 
-			$this->db = new PDO("mysql:host=localhost;dbname=dbpbwl_project10", "root", "");
+			$this->db = new PDO("mysql:host=localhost;dbname=pbwl", "root", "");
 		} catch (Exception $e) {
 			die("error! " . $e->getMessage());
 		}

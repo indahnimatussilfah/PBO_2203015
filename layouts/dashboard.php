@@ -48,6 +48,11 @@
 					</a>
 				</li>
 				<li>
+					<a href="<?php echo URL; ?>/dosens">
+						<img class="icon" src="<?php echo AST; ?>/img/menu.png" alt=""> Dosens
+					</a>
+				</li>
+				<li>
 					<a href="<?php echo URL; ?>/dashboard/logout">
 						<img class="icon" src="<?php echo AST; ?>/img/menu.png" alt=""> Logout
 					</a>
